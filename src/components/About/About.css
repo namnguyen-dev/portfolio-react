@@ -1,0 +1,38 @@
+.about-title {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+.about-title .underline {
+  margin-left: 0;
+}
+
+.about {
+  padding: 5rem 0;
+}
+.about-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-about-info {
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 992px) {
+  .about-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+  }
+
+  .about-title {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .about-title .underline {
+    margin-left: auto;
+  }
+
+  .about-center-info p {
+    font-size: 1.125rem;
+  }
+}
