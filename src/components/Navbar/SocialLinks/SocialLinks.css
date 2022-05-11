@@ -1,0 +1,25 @@
+.social-icons {
+  margin-top: 3rem;
+  justify-content: space-between;
+  width: 18rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.social-icon svg {
+  font-size: 1rem;
+  fill: var(--clr-grey-1);
+  transition: var(--transition);
+}
+.social-icon svg:hover {
+  fill: var(--clr-primary-5);
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 320px) {
+  .social-icon svg {
+    font-size: 1.5rem;
+  }
+}
