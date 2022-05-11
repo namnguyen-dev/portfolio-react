@@ -1,0 +1,40 @@
+.portfolio {
+  padding-bottom: 2rem;
+}
+
+.portfolio-title {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+.portfolio-title .underline {
+  margin-left: 0;
+}
+
+.more-btn {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio {
+    padding-bottom: 5rem;
+  }
+
+  .portfolio-title {
+    margin-bottom: -1rem;
+  }
+
+  .more-btn {
+    margin-bottom: 0;
+    margin-top: 3rem;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .portfolio-title {
+    text-align: center;
+  }
+  .portfolio-title .underline {
+    margin-left: auto;
+  }
+}
