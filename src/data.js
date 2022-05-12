@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     id: 3,
-    img: 'https://media.giphy.com/media/t4Qz9GPq6uMDKRYyJ9/giphy.gif',
+    img: 'https://media.giphy.com/media/LQtUjUi9dkjLT7Cxhh/giphy.gif',
     title: 'Portfolio Website',
     description: `This project is the very first project I built on my own after breaking out of the tutorial hell. I got inspired by many great developers I have learned from youtube, udemy & freecodecamp.`,
     tags: ['React', 'CSS'],
