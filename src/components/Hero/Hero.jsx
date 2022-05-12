@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <header className="section hero">
       <div className="section-center hero-center">
-        <article className="hero-info">
+        <article className="hero-info animate" data-animate="slideInLeft 2s">
           <div className="underline"></div>
 
           <h1>i'm a web developer</h1>
@@ -21,7 +21,7 @@ const Hero = () => {
           <SocialLinks />
         </article>
 
-        <article className="hero-img">
+        <article className="hero-img animate" data-animate="slideInRight 2s">
           <img src={heroImg} className="hero-photo" alt="nam nguyen" />
         </article>
       </div>

@@ -6,11 +6,16 @@ const About = () => {
     <section className="section about" id="about">
       <div className="section-center">
         <div className="section-title about-title">
-          <h2>About me</h2>
+          <h2
+            className="animate"
+            data-animate="tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both"
+          >
+            About me
+          </h2>
           <div className="underline"></div>
         </div>
 
-        <div className="about-center">
+        <div className="about-center animate" data-animate="slideInLeft 2s">
           <div className="about-center-info">
             <h3>Get to know me!</h3>
             <p>
@@ -23,7 +28,7 @@ const About = () => {
             </p>
           </div>
 
-          <div>
+          <div className="animate" data-animate="slideInRight 2s">
             <h3>Education</h3>
             <div>
               <p>2012-2015</p>
