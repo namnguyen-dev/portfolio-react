@@ -1,0 +1,34 @@
+.footer {
+  padding: 2rem 0;
+  background: #1d251c;
+  display: grid;
+  place-items: center;
+}
+
+.footer .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90vw;
+  margin: 2rem auto;
+}
+
+.footer .social-icon svg {
+  fill: var(--clr-primary-5);
+}
+.footer .social-icon svg:hover {
+  fill: var(--clr-primary-7);
+}
+
+.footer p {
+  font-size: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (min-width: 320px) {
+  .footer p {
+    font-size: 1.25rem;
+  }
+}
