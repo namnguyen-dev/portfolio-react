@@ -28,7 +28,7 @@ const Portfolio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          more project
+          more projects
         </a>
       </div>
     </section>
